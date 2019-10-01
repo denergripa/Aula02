@@ -48,12 +48,12 @@ namespace Aula02
         };
             Meses.Add(12, "Dezembro");
 
-            int indice = 0;
-            while (indice < Dias.Length)
-            {
-                cbxDias.Items.Add(Dias[indice]);
-                indice++;
-                }
+            //int indice = 0;
+            //while (indice < Dias.Length)
+            //{
+            //    cbxDias.Items.Add(Dias[indice]);
+            //    indice++;
+            //    }
             for (int i = 0; i < Dias.Length; i++)
             {
                 cbxDias.Items.Add(Dias[i]);
